@@ -16,7 +16,7 @@
 * Add file `config.properties` included: 
 
 
-  ```
+```
   bot.name = _name_
   bot.token = _token_your_bot_
   bot.chatId = _chats_id_
@@ -35,6 +35,7 @@ spring.datasource.driverClassName = com.mysql.cj.jdbc.Driver
 spring.datasource.url = jdbc:mysql://localhost:3306/...
 spring.datasource.username = root
 spring.datasource.password = root
+
 ```
 
 * Run your MySQL server on local host
@@ -42,6 +43,7 @@ spring.datasource.password = root
 * Add your Bot for your Telegram chat and make it an admin
 
 **Run the `.jar` file:**
+
 ```
 java -jar SpringTGBot.jar
 ```
