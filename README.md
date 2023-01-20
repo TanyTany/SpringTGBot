@@ -20,10 +20,9 @@
   bot.name = _name_
   bot.token = _token_your_bot_
   bot.chatId = _chats_id_
-```
-and db related settings
 
-```
+# db related settings
+
 spring.jpa.database = MySQL
 spring.jpa.show-sql = false
 
